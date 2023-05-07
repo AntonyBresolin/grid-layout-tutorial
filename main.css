@@ -12,13 +12,16 @@ html{
 .item3 { grid-area: main; border: 2px solid black; padding: 10px; padding-left: 10%; padding-right: 10%;}
 .item4 { grid-area: code; border: 2px solid black; padding: 10px; transition: ease-in-out 1s;} 
 /*grid Cores itens*/
-.item5 { grid-area: header_color; background: red; padding: 30px;}
-.item6 { grid-area: imagem_color; background: blue; padding: 30px;}
-.item7 { grid-area: main_color; background: white; padding: 30px; }
-.item8 { grid-area: code_color; background: green; padding: 30px;}
+.item5 { grid-area: header_color; background: rgba(255, 0, 0, 0.701); padding: 30px; transition:linear;}
+.item6 { grid-area: imagem_color; background: rgba(0, 0, 255, 0.705); padding: 30px;}
+.item7 { grid-area: main_color; background: rgba(255, 255, 255, 0.704); padding: 30px; }
+.item8 { grid-area: code_color; background: rgba(0, 128, 0, 0.703); padding: 30px;}
 
 /* grid cores hover*/
-.item5:hover{grid-template-columns: 2fr 1fr 1fr 1fr;}
+.item5:hover{background: rgb(255, 0, 0);}
+.item6:hover{background: rgb(0, 0, 255);}
+.item7:hover{background: rgb(255, 255, 255);}
+.item8:hover{background: rgb(0, 128, 0);}
 
 
 /* grid site hover*/
@@ -162,6 +165,10 @@ code{
     .item3{
         padding-left: 10px; padding-right: 10px;
     }
+    .item5{ background-color: red;}
+    .item6{ background-color: blue;}
+    .item7{ background-color: yellow;}
+    .item8{ background-color: green;}
     .container_cores{
         grid-template-columns: 1fr;
         grid-template-areas: 
