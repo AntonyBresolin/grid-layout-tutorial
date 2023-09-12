@@ -94,8 +94,6 @@ img{
     column-gap: 70px;
     
     color: white;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;    
 }
 .propriedades_estilo_geral{
     -webkit-box-shadow: 10px 12px 10px -5px rgba(0,0,0,0.44);
